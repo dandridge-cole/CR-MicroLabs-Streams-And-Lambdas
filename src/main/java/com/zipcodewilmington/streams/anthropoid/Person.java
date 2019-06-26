@@ -29,6 +29,9 @@ public class Person implements Comparable<Person> {
         this.aliases = aliases;
     }
 
+    public Person() {
+    }
+
     public String getName() {
         return name;
     }
